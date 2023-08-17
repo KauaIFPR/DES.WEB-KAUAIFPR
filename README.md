@@ -1,2 +1,2 @@
-# POO-KAUAIFPR
-DISCIPLINA  ORIENTADA A OBJETOS 
+# DES.WEB-Kaua
+Desenvolvimento Web
