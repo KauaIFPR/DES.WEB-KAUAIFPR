@@ -14,7 +14,7 @@
 		$breakpoints: $x !global;
 	}
 
-	/// Wraps @content in a @media block targeting a specific orientation.
+	/// Wraps @content in a @media bloquear visando uma orientação específica.
 	/// @param {string} $orientation Orientation.
 	@mixin orientation($orientation) {
 		@media screen and (orientation: #{$orientation}) {
@@ -22,7 +22,7 @@
 		}
 	}
 
-	/// Wraps @content in a @media block using a given query.
+	/// Wraps @content em  @media bloquear usando uma determinada consulta.
 	/// @param {string} $query Query.
 	@mixin breakpoint($query: null) {
 
@@ -30,7 +30,7 @@
 		$op: null;
 		$media: null;
 
-		// Determine operator, breakpoint.
+		// Determinar operador, ponto de interrupção.
 
 			// Greater than or equal.
 				@if (str-slice($query, 0, 2) == '>=') {
